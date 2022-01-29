@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    background-color: var(--grey-color);
+}
+:root {
+    --primary-color: #02264F;
+    --primary-light-color: #DCEDFF;
+    --secondary-color:#FD8787;
+    --secondary-light-color: #f8c3c3;
+    --black-color: #090C02;
+    --grey-color: #f5f5f5;
+    font-family: 'Montserrat';
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-light-color);
+    width: 100%;
+    height: 5rem;
+}
+
+.nav-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-content{
+    padding: 0 1rem;
+}
+
+.nav-logo{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+.nav-link{
+    font-size: x-large;
+    font-weight: 500;
+    padding-top: 1.25rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+
+ul{
+    padding-top: 10rem;
+}
+
+.li-items{
+    list-style-type: none;
+    font-size:2.5rem;  
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.body-content{
+    margin: 5rem 5rem;
+}
+
+.body-content span{
+    color: var(--primary-color);
+}
+
+
+.body-logo{
+    font-size: 20rem;
+    color: var(--primary-color);
+}
+
+.btn{
+    margin: 3rem 1rem;
+}
+
+.btn-primary{
+    margin-right: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--grey-color);
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    
+}
+
+.btn-secondary{
+    margin-right: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    background-color: var(--primary-light-color);
+    color: var(--black-color);
+    border: none;
+    font-size: large;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
