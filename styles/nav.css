@@ -1,4 +1,6 @@
  @import url('/styles/styles-global/root.css');
+ 
+
 .nav-body{
     position: fixed;
     grid-area: nav;
@@ -6,17 +8,17 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     margin: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem;
     width: 10rem;
 }
 
 .scroll {
     overflow-x: hidden;
     overflow-y: auto;
-    text-align:justify;
+    text-align:center;
 }
 
 .nav-heading{

@@ -4,9 +4,6 @@
 @import url('/styles.css');
 
 
-
-/* AVATAR START */
-
 .avatar-body{
     font-family: var(--font-family-content);
     grid-area: main;
@@ -40,7 +37,9 @@
     font-weight: var(--section-content-weight);
     color: var(--secondary-color);
 }
-.avatar-classic-img-container{
+
+/* ROUND AVATAR */
+.avatar-rd-img-container{
     width: 90%;
     height: 12rem;
     margin-right:auto;
@@ -48,40 +47,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: var(--primary-vlight-color);
     text-align: center;
     
 }
 
-.img-cs-xl{
+.img-rd-xl{
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
-    margin: 1rem 0rem;
 }
 
-.img-cs-l{
+.img-rd-l{
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
-    margin: 2rem 0rem;
 }
 
-.img-cs-m{
+.img-rd-m{
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    margin: 3rem 0rem;
 }
 
-.img-cs-s{
+.img-rd-s{
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    margin: 4rem 0rem;
 }
-
-.avatar-img-details{
+/* ROUND AVATAR ENDS */
+.avatar-details{
     width: 90%;
     height: 5rem;
     margin-right:auto;
@@ -92,7 +88,7 @@
     background-color: var(--primary-vlight-color);
 }
 
-
+/* SQUARED AVATAR START */
 .avatar-squared-img-container{
     width: 90%;
     height: 15rem;
@@ -101,6 +97,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: var(--primary-vlight-color);
 }
 
@@ -109,29 +106,29 @@
     height: 10rem;
     width: 10rem;
     border-radius: 1rem;
-    margin: 3rem 0rem;
 }
 
 .img-sq-l{
     height: 8rem;
     width: 8rem;
     border-radius: 1rem;
-    margin: 4rem 0rem;
 }
 
 .img-sq-m{
     height: 6rem;
     width: 6rem;
     border-radius: 1rem;
-    margin: 5rem 0rem;
 }
 
 .img-sq-s{
     height: 4rem;
     width: 4rem;
     border-radius: 1rem;
-    margin: 6rem 0rem;
 }
+
+
+/* SQUARED AVATAR END */ 
+
 
 .iframe-container{
     padding-top: 3rem;
@@ -149,10 +146,144 @@ iframe{
     justify-content: space-around;
 }
 
-/* AVATAR END */
+/* ROUND TEXT AVATAR START */
 
-/* ALERT START */
+.avatar-rd-txt-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.txt-rd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-/* ALERT END */
+.txt-rd-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--secondary-light-color);
+
+} 
+
+.txt-rd-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%; 
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+}
+
+.txt-rd-m{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+.txt-rd-s{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+/* ROUND TEXT AVATAR END */
+
+
+/* SQUARED TEXT AVATAR START */
+
+.avatar-sq-txt-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.txt-sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-sq-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--secondary-light-color);
+
+} 
+
+.txt-sq-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+}
+
+.txt-sq-m{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+
+.txt-sq-s{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+
+/* SQUARED TEXT AVATAR END */
 
