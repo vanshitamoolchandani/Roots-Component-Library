@@ -33,7 +33,11 @@
 }
 
 
-
+.alert-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
 
 .alt-ty-container{
     display: flex;
