@@ -76,6 +76,15 @@
     width: 4rem;
     border-radius: 50%;
 }
+<<<<<<< Updated upstream
+=======
+
+.img-rd-xs{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+>>>>>>> Stashed changes
 /* ROUND AVATAR ENDS */
 .avatar-details{
     width: 90%;
@@ -126,6 +135,16 @@
     border-radius: 1rem;
 }
 
+<<<<<<< Updated upstream
+=======
+.img-sq-xs{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+}
+
+
+>>>>>>> Stashed changes
 
 /* SQUARED AVATAR END */ 
 
@@ -167,6 +186,7 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+<<<<<<< Updated upstream
 
 
 .txt-rd-xl{
@@ -206,6 +226,120 @@ iframe{
 .txt-rd-s{
     height: 4rem;
     width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+/* ROUND TEXT AVATAR END */
+
+
+/* SQUARED TEXT AVATAR START */
+
+.avatar-sq-txt-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.txt-sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-sq-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 1rem;
+=======
+
+
+.txt-rd-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 50%;
+>>>>>>> Stashed changes
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--secondary-light-color);
+
+} 
+
+<<<<<<< Updated upstream
+.txt-sq-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+=======
+.txt-rd-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%; 
+>>>>>>> Stashed changes
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+}
+
+<<<<<<< Updated upstream
+.txt-sq-m{
+=======
+.txt-rd-m{
+>>>>>>> Stashed changes
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+<<<<<<< Updated upstream
+    border-radius: 1rem;
+}
+
+.txt-sq-s{
+=======
+    border-radius: 50%;
+}
+
+.txt-rd-s{
+>>>>>>> Stashed changes
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+<<<<<<< Updated upstream
+    border-radius: 1rem;
+}
+
+/* SQUARED TEXT AVATAR END */
+=======
+    border-radius: 50%;
+}
+
+.txt-rd-xs{
+    height: 3rem;
+    width: 3rem;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -285,5 +419,16 @@ iframe{
     border-radius: 1rem;
 }
 
-/* SQUARED TEXT AVATAR END */
+.txt-sq-xs{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+>>>>>>> Stashed changes
 
+/* SQUARED TEXT AVATAR END */
