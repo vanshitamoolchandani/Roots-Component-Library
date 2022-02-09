@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Yellowtail&display=swap');
 :root {
-    --primary-color: #251F83 !important;
+    --primary-color: #211c76 !important;
     --primary-light-color: #6662a8 !important;
     --primary-vlight-color: #DCEDFF !important;
     --secondary-color:#fE7A15 !important;
     --secondary-light-color: #ffdec5 !important;
     --black-color: #090C02;
     --black-matte-color: #28282B;
-    --grey-color: #f5f5f5;
+    --background-color: #f5f5f5 !important;
+    --dark-grey-color: #b8b8b8 !important;
     --white-color: white;
     --delete-color: red;
     --font-family-content: 'Comfortaa';
@@ -24,7 +25,7 @@
 
 
 body{
-    background-color: var(--grey-color);
+    background-color: var(--background-color);
         display: grid;
         grid-template-areas:
         "header header"
@@ -32,4 +33,12 @@ body{
         "nav  foot";
 grid-template-rows: 50px 1fr 30px;
 grid-template-columns: 200px 1fr;
+}
+
+.component-container{
+    border: 5px solid var(--dark-grey-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
 }
