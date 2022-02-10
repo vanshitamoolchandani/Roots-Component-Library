@@ -96,6 +96,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 .btn-standard-container {
     display: flex;
@@ -104,21 +105,29 @@
 }
 
 .btn-standard {
-    padding: 1rem 0rem;
-    height: ;
+    padding: 0.5rem 0.75rem;
+    height: 3rem;
+    margin: 0.5rem;
+    font-size: medium;
+    
+
 }
 
 .btn-outline {
-    padding: 0.25rem 1rem;
+    padding: 0.5rem 0.75rem;
+    height: 3rem;
     margin: 0.5rem;
+    font-size: medium;
+    font-weight: 700;
+
 }
 
 .btn-icon {
-    padding: 1rem;
+    padding: 0rem 0rem;
+    margin: 0.5rem;
 }
 
 .icon-padding {
-
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -136,7 +145,6 @@
 .card-basic {
     height: 26rem;
     width: 24rem;
-
 }
 
 .basic-img,
