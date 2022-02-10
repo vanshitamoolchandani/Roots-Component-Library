@@ -35,7 +35,7 @@ grid-template-rows: 50px 1fr 30px;
 grid-template-columns: 200px 1fr;
 }
 
-.component-container{
+.container{
     border: 5px solid var(--dark-grey-color);
     padding: 1rem;
     border-radius: 1rem;
