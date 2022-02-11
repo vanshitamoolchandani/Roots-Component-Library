@@ -26,12 +26,14 @@
 
 body{
     background-color: var(--background-color);
+    position: relative;
         display: grid;
         grid-template-areas:
-        "header header"
-        "nav  main"
-        "nav  foot";
-grid-template-rows: 50px 1fr 30px;
+        "header header header"
+        "nav  main main"
+        "nav  main main"
+        "footer footer footer";
+/* grid-template-rows: 50px 1fr 30px; */
 grid-template-columns: 200px 1fr;
 }
 
