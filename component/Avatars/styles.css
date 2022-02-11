@@ -7,7 +7,7 @@
 .avatar-body{
     font-family: var(--font-family-content);
     grid-area: main;
-    margin: 0rem 18rem;
+    margin: 0rem 5rem;
     background-color: var(--white-color);
     padding: 2rem;
 }
