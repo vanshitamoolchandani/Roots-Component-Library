@@ -47,8 +47,34 @@
     margin: 1rem;
     width: 80%;
     height: 10rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:large
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: 400;
+}
+
+.in-container{
+    padding:1rem;
+    border-radius: 1px;
+    background-color: var(--primary-vlight-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+    width: 15rem;
+}
+
+.in-error{
+    border-color: red;
+    margin-bottom: 0px;
+}
+
+.in-label-error{
+    color: red;
+    font-size: small;
+    margin: 3px 0px;
 }
 
 /* BUTTONS */
