@@ -1,3 +1,63 @@
 @import url('/styles/nav.css');
 @import url('/styles/styles-global/root.css');
 @import url('/styles.css');
+
+
+.image-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 18rem;
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+}
+.heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.img-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+
+.img-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+
+.img-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-responsive{
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
+    
+}
+
+.img-rect{
+    /* aspect-ratio: 1/1; */
+    object-position: top;
+}
+
+.img-round{
+    clip-path: circle(150px at 50% 50%);
+    object-position: bottom;
+}

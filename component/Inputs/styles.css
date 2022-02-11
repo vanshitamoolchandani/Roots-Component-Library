@@ -1,0 +1,61 @@
+@import url('/styles/nav.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.container{
+    display: block;
+}
+
+.input-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 18rem;
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+}
+.heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.ip-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+
+.ip-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+
+.ip-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+    color: var(--primary-color);
+}
+
+.ip-textarea{
+    padding: 2rem;
+    margin: 1rem;
+    width: 80%;
+    height: 10rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large
+}
+
+/* BUTTONS */
+.btn-standard{
+    padding: 0.5rem 1.5rem;
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+    margin: 5px;
+}
