@@ -1,0 +1,211 @@
+@import url('/styles/nav.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.btn-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 5rem;
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+}
+.heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.btn-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+.btn-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+/* STANDARD BUTTON */
+
+.btn-standard{
+    padding: 1rem 2rem;
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.btn-std-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-std-secondary{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.btn-std-delete{
+    background-color: var(--delete-color);
+    color: var(--white-color);
+}
+
+.btn-standard:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+ }
+
+
+/* OUTLINE BUTTON */
+
+
+
+.btn-outline{
+    padding: 1rem 2rem;
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+    margin: 1rem;
+
+}
+
+.btn-out-primary{
+    background-color: var(--primary-vlight-color);
+    border-color: var(--primary-color);
+
+}
+
+.btn-out-secondary{
+    background-color: var(--secondary-light-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-out-delete{
+    border-color: var(--delete-color);
+    background-color: var(--white-color);
+}
+
+.btn-outline:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+ }
+
+/* LINK BUTTON */
+
+
+.btn-link{
+    border: none;
+    background-color: var(--white-color);
+    text-decoration: underline;
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+}
+
+.btn-link-primary{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+
+}
+
+.btn-link-secondary{
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-link:hover {
+    box-shadow: #666;
+    transform: scale(1.05);
+ }
+
+/* FLOATING ACTION BUTTON */
+
+
+.btn-fa{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+
+.btn-fa-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);   
+    font-size: larger; 
+
+}
+
+.btn-fa-secondary{
+    background-color: var(--secondary-color);
+    color: var(--white-color);  
+    font-size: larger;   
+}
+
+.btn-fa-outline-primary{
+    background-color: var(--primary-vlight-color);
+    border-color: var(--primary-color);
+    font-size: larger; 
+}
+
+.btn-fa-outline-secondary{
+    background-color: var(--secondary-light-color);
+    border-color: var(--secondary-color);    
+    font-size: larger; 
+}
+
+.btn-fa:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+ }
+
+
+ /* ICONS */
+
+ .btn-icon{
+     padding: 1rem;
+     border: none;
+     margin: 1rem;
+     background-color: transparent;
+     font-size: 2rem;
+ }
+
+ .btn-icon-primary{
+    color: var(--primary-color);
+ }
+ .btn-icon-secondary{
+    color: var(--secondary-color);
+}
+.btn-icon-delete{
+    color: red;
+}
+.btn-icon:hover {
+    box-shadow: 0 #666;
+    transform: scale(1.25);
+ }
+
+
+/* IFRAME */
+
+.iframe-container{
+    padding-top: 3rem;
+}
+
+iframe{
+    width: 55rem;
+    height: 15rem;
+    margin-right:auto;
+    margin-left:auto;
+    transform: scale(1); 
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+

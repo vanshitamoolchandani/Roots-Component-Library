@@ -1,0 +1,302 @@
+@import url('/styles/nav.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+@import url('/component/Buttons/styles.css');
+
+
+
+:root {
+    --font-weight-card-content: 600;
+    --btn-font-size: 300;
+}
+
+.card-body {
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 5rem;
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+
+
+}
+
+.card-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading {
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.btn-subheading {
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+
+.card-heading {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.card-subheading {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: medium
+}
+.card-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+.card-content-txt-color {
+    color: gray;
+}
+
+.card-txt-red {
+    color: red;
+}
+
+.card-txt-secondary {
+    color: var(--secondary-color);
+}
+
+.card-basic,
+.card-header,
+.card-horiz,
+.card-header-badge {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.card-txt-container:hover {
+    background-color: var(--grey-color);
+}
+
+.txt-margin {
+    margin: 10px;
+}
+
+
+/* COMMON BUTTON  */
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-standard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn-standard {
+    padding: 0.5rem 0.75rem;
+    height: 3rem;
+    margin: 0.5rem;
+    font-size: medium;
+
+
+}
+
+.btn-outline {
+    padding: 0.5rem 0.75rem;
+    height: 3rem;
+    margin: 0.5rem;
+    font-size: medium;
+    font-weight: 700;
+
+}
+
+.btn-icon {
+    padding: 0rem 0rem;
+    margin: 0.5rem;
+}
+
+.icon-padding {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 5px;
+}
+
+.btn-icon-child {
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+/* BASIC */
+
+.card-basic {
+    height: 26rem;
+    width: 22rem;
+}
+
+.basic-img,
+.header-img {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+}
+
+
+/* BASIC END */
+
+/* HEADER WITH BADGE */
+.card-header-badge {
+    height: 28rem;
+    width: 22rem;
+}
+
+/* HEADER WITH BADGE END */
+
+
+/* HEADER */
+
+.card-header {
+    height: 26rem;
+    width: 22rem;
+}
+
+.header-img {
+    border-radius: 0%;
+}
+
+/* HEADER END */
+
+
+/* HORIZONTAL IMAGE */
+
+.card-horiz {
+    height: 11rem;
+    width: 25rem;
+}
+
+.horiz-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.horiz-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 3px;
+}
+
+/* HORIZONTAL IMAGE END */
+.card-txt-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* ribbon */
+
+.ribbon {
+    width: 9rem;
+    height: 9rem;
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.ribbon__content {
+    left: -25px;
+    top: 30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 10px 0;
+    background-color: #f5cd79;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.192);
+    color: var(--secondary-color);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px dotted #fff;
+    outline: 5px solid #f5cd79;
+
+
+}
+
+.ribbon::before {
+    top: 0;
+    left: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #f19066;
+    box-sizing: content-box;
+
+}
+
+.ribbon::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #f19066;
+
+}
+
+
+/* Sale badge */
+.badge-upper {
+    background-color: var(--black-matte-color);
+    height: 1.5rem;
+    width: 100%;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    opacity: 0.9;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

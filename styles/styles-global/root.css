@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Yellowtail&display=swap');
+:root {
+    --primary-color: #211c76 !important;
+    --primary-light-color: #6662a8 !important;
+    --primary-vlight-color: #DCEDFF !important;
+    --secondary-color:#fE7A15 !important;
+    --secondary-light-color: #ffdec5 !important;
+    --black-color: #090C02;
+    --black-matte-color: #28282B;
+    --background-color: #f5f5f5 !important;
+    --dark-grey-color: #b8b8b8 !important;
+    --white-color: white;
+    --delete-color: red;
+    --font-family-content: 'Comfortaa';
+    --font-family-logo: 'Yellowtail', cursive !important;
+    --heading-weight: 500;
+    --heading-size: 2.5rem;
+    --sub-heading-weight: 300;
+    --sub-heading-size: 2rem;
+    --content-weight: 100;
+    --content-size: 1.25rem;
+    --section-content-size:1rem;
+    --section-content-weight: 500 !important;
+}
+
+
+body{
+    background-color: var(--background-color);
+    position: relative;
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "nav  main main"
+        "nav  main main"
+        "footer footer footer";
+/* grid-template-rows: 50px 1fr 30px; */
+grid-template-columns: 200px 1fr;
+}
+
+.container{
+    border: 5px solid var(--dark-grey-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
