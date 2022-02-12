@@ -1,4 +1,4 @@
-@import url('/styles/nav.css');
+@import url('/component/NavBar-Vertical/styles.css');
 @import url('/styles/styles-global/root.css');
 @import url('/styles.css');
 
@@ -8,7 +8,7 @@
     grid-area: main;
     margin: 0rem 5rem;
     background-color: var(--white-color);
-    padding: 2rem 2rem;
+    padding: 2rem;
 }
 .heading{
     margin: 1rem 0rem;

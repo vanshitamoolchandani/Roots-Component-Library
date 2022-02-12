@@ -2,6 +2,11 @@
 @import url('/styles/styles-global/root.css');
 @import url('/styles.css');
 
+:root{
+    --delete-color: red;
+    --delete-light-color: #f8c1c1;
+}
+
 .btn-body{
     font-family: var(--font-family-content);
     grid-area: main;
@@ -85,7 +90,7 @@
 
 .btn-out-delete{
     border-color: var(--delete-color);
-    background-color: var(--white-color);
+    background-color: var(--delete-light-color);
 }
 
 .btn-outline:hover {
@@ -180,7 +185,7 @@
     color: var(--secondary-color);
 }
 .btn-icon-delete{
-    color: red;
+    color: var(--delete-color);
 }
 .btn-icon:hover {
     box-shadow: 0 #666;

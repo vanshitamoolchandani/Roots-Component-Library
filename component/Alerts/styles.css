@@ -1,6 +1,8 @@
 @import url('/component/NavBar-Vertical/styles.css');
 @import url('/styles/styles-global/root.css');
 @import url('/styles.css');
+@import url('/component/Buttons/styles.css');
+
 
 :root{
     --alert-success-color: #b7e1b4;
@@ -41,7 +43,7 @@
 .alt-ty-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 10px;
     align-items: center;
     background-color: var(--primary-vlight-color);
@@ -50,10 +52,14 @@
 
 .alt-child{
     width: 60%;
-    padding: 1rem 0rem;
+    padding: 1rem 2rem;
     text-align: center;
     border-radius: 0.5rem;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .alert-suc{
@@ -77,6 +83,16 @@
 .alert-err{
     background-color: var(--alert-error-color);
 }
+
+.btn-icon{
+    padding: 0rem;
+    border: none;
+    margin: 0rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+
+}
+
 
 .iframe-container{
     padding-top: 3rem;
