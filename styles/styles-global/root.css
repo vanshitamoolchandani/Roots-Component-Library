@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Yellowtail&display=swap');
+@import url('https://kit.fontawesome.com/c8ee3dd930.js');
+
+@import url('/component/Avatars/styles.css');
+@import url('/component/Alerts/styles.css');
+@import url('/component/Badges/styles.css');
+@import url('/component/Buttons/styles.css');
+@import url('/component/Cards/styles.css');
+@import url('/component/Images/styles.css');
+@import url('/component/Input/styles.css');
+@import url('/component/NavBar-Vertical/styles.css');
+
+
 :root {
     --primary-color: #211c76 !important;
     --primary-light-color: #6662a8 !important;
