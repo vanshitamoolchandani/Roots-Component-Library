@@ -74,7 +74,7 @@
 
 .card-basic,
 .card-header,
-.card-hi,
+.card-horiz,
 .card-header-badge {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: 0.3s;
@@ -149,7 +149,7 @@
 
 .card-basic {
     height: 26rem;
-    width: 24rem;
+    width: 22rem;
 }
 
 .basic-img,
@@ -164,8 +164,8 @@
 
 /* HEADER WITH BADGE */
 .card-header-badge {
-    height: 480px;
-    width: 380px;
+    height: 28rem;
+    width: 22rem;
 }
 
 /* HEADER WITH BADGE END */
@@ -174,8 +174,8 @@
 /* HEADER */
 
 .card-header {
-    height: 450px;
-    width: 380px;
+    height: 26rem;
+    width: 22rem;
 }
 
 .header-img {
@@ -187,17 +187,17 @@
 
 /* HORIZONTAL IMAGE */
 
-.card-hi {
+.card-horiz {
     height: 11rem;
     width: 25rem;
 }
 
-.hi-align {
+.horiz-align {
     display: flex;
     flex-direction: row;
 }
 
-.hi-img {
+.horiz-img {
     width: 110px;
     height: 110px;
     border-radius: 3px;
