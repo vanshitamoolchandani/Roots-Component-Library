@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/component/Badges/styles.css" rel="stylesheet">
+
+    <link href="/component/Avatars/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8ee3dd930.js"></script>
+
+    <title>Avatar</title>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-container">
+        <div class="nav-child">
+            <a class="nav-content"><i class="nav-logo fas fa-spa"></i></a>
+            <h2 class="nav-content nav-logo-txt">Roots</h2>
+        </div>
+        <div class="nav-child">
+            <a href="/index.html" class="nav-link nav-content">Home</a>
+            <a class="nav-link nav-content">Installation</a>
+            <a href="/component/Avatars/index.html" class="nav-link nav-content">Documentation</a>
+        </div>
+    </nav>
+    <div class="nav-body scroll">
+        <div class="nav-scroll">
+            <h4 class="nav-heading">Get Started</h4>
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="nav-a">Introduction</a></li>
+                <li class="nav-li"><a class="nav-a">Colors</a></li>
+                <li class="nav-li"><a class="nav-a">Typography</a></li>
+                <li class="nav-li"><a class="nav-a">Theming</a></li>
+            </ul>
+            <h4 class="nav-heading">Components</h4>
+            <ul class="nav-ul">
+                <li class="nav-li"> <a href="/component/Avatars/index.html" class="nav-a ">Avatar</a></li>
+                <li class="nav-li"> <a href="/component/Alerts/index.html" class="nav-a ">Alerts</a></li>
+                <li class="nav-li"> <a href="/component/Badges/index.html" class="nav-a ">Badges</a></li>
+                <li class="nav-li"> <a href="/component/Buttons/index.html" class="nav-a ">Button</a></li>
+                <li class="nav-li"> <a href="/component/Cards/index.html" class="nav-a ">Card</a></li>
+                <li class="nav-li"> <a href="/component/Images/index.html" class="nav-a ">Image</a></li>
+                <li class="nav-li"> <a href="/component/Input/index.html" class="nav-a ">Input</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- BADGE BODY -->
+
+
+    <div class="avatar-body">
+        <h2 class="heading">Badges</h2>
+        <h5 class="avatar-content">Badge are indication that users can set to show if they are <strong
+                style="font-style:italic ;">online, available or away</strong>. The badges are of four sizes
+            extra-large (10 rem),
+            large (8 rem),
+            medium (6 rem) and
+            small (4 rem)</h5>
+
+        <!-- ROUND BADGE -->
+
+        <h4 class="avatar-subheading">> Round Badge</h4>
+        <h5 class="avatar-content">Round Badge shows your profile picture and status in round shape. As shown...</h5>
+        <section class="avatar-rd-img-container">
+            <div class="badge-container"><img class="img-rd-m" src="/images/avatar-img.png"><span
+                    class="badge-m badge-round bg-online bg-left"></span></div>
+            <div class="badge-container"><img class="img-rd-s" src="/images/avatar-img.png"><span
+                    class="badge-s badge-round bg-away bg-right"></span></div>
+            <div class="badge-container"><img class="img-rd-xs" src="/images/avatar-img.png"><span
+                    class="badge-xs badge-round bg-available bg-right"></span></div>
+        </section>
+        <section class="avatar-details">
+            <h5 class="avatar-section-content">Medium (6 rem)</h5>
+            <h5 class="avatar-section-content">Small (4 rem)</h5>
+            <h5 class="avatar-section-content">Extra Small (3 rem)</h5>
+        </section>
+        <div class="iframe-container">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=50px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522avatar-rd-img-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-rd-m%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-m%2520badge-round%2520bg-online%2520bg-left%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-rd-s%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-s%2520badge-round%2520bg-away%2520bg-right%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-rd-xs%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-xs%2520badge-round%2520bg-available%2520bg-right%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <!-- SQUARED BADGE -->
+
+
+        <h4 class="avatar-subheading">> Squared Badges</h4>
+        <h5 class="avatar-content">Squared Badge shows your profile picture and status in squared shape. As shown...
+        </h5>
+        <section class="avatar-squared-img-container">
+            <div class="badge-container"><img class="img-sq-m" src="/images/avatar-img.png"><span
+                    class="badge-m badge-square bg-online bg-left"></span></div>
+            <div class="badge-container"><img class="img-sq-s" src="/images/avatar-img.png"><span
+                    class="badge-s badge-square bg-away bg-right"></span></div>
+            <div class="badge-container"><img class="img-sq-xs" src="/images/avatar-img.png"><span
+                    class="badge-xs badge-square bg-available bg-right"></span></div>
+
+        </section>
+        <section class="avatar-details">
+            <h5 class="avatar-section-content">Medium (6 rem)</h5>
+            <h5 class="avatar-section-content">Small (4 rem)</h5>
+            <h5 class="avatar-section-content">Extra Small (3 rem)</h5>
+
+        </section>
+        <div class="iframe-container">
+            <code>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=50px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522avatar-squared-img-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-sq-m%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-m%2520badge-square%2520bg-online%2520bg-left%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-sq-s%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-s%2520badge-square%2520bg-away%2520bg-right%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cimg%2520class%253D%2522img-sq-xs%2522%2520src%253D%2522...%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-xs%2520badge-square%2520bg-available%2520bg-right%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </code>
+        </div>
+
+
+        <!-- ROUND TEXT BADGE -->
+
+
+        <h4 class="avatar-subheading">> Round Text Badges</h4>
+        <h5 class="avatar-content">Round Text Badge shows the initals of your name and status in round shape. As
+            shown...</h5>
+        <section class="avatar-rd-txt-container">
+            <div class="txt-rd txt-rd-m badge-container">
+                <h3>VM</h3><span class="badge-m badge-round bg-online bg-left"></span>
+            </div>
+            <div class="txt-rd txt-rd-s badge-container">
+                <h3>VM</h3><span class="badge-s badge-round bg-away bg-right"></span>
+            </div>
+            <div class="txt-rd txt-rd-xs badge-container">
+                <h3>VM</h3><span class="badge-s badge-round bg-available bg-right"></span>
+            </div>
+        </section>
+        <section class="avatar-details">
+            <h5 class="avatar-section-content">Medium (6 rem)</h5>
+            <h5 class="avatar-section-content">Small (4 rem)</h5>
+            <h5 class="avatar-section-content">Extra Small (3 rem)</h5>
+        </section>
+        <div class="iframe-container">
+            <code>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=50px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522avatar-rd-txt-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522txt-rd%2520txt-rd-m%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-m%2520badge-round%2520bg-online%2520bg-left%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522txt-rd%2520txt-rd-s%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-s%2520badge-round%2520bg-away%2520bg-right%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522txt-rd%2520txt-rd-xs%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-s%2520badge-round%2520bg-available%2520bg-right%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </code>
+        </div>
+
+        <!--  SQUARED TEXT BADGE -->
+
+
+        <h4 class="avatar-subheading">> Squared Text Badges</h4>
+        <h5 class="avatar-content">Squared Text Badge shows the initals of your name and status in squared shape. As
+            shown...</h5>
+        <section class="avatar-sq-txt-container">
+            <div class="badge-container txt-sq txt-sq-m">
+                <h3>VM</h3><span class="badge-m badge-square bg-online bg-left"></span>
+            </div>
+            <div class="badge-container txt-sq txt-sq-s">
+                <h3>VM</h3><span class="badge-s badge-square bg-away bg-right"></span>
+            </div>
+            <div class="badge-container txt-sq txt-sq-xs">
+                <h3>VM</h3><span class="badge-xs badge-square bg-available bg-right"></span>
+            </div>
+        </section>
+        <section class="avatar-details">
+            <h5 class="avatar-section-content">Medium (6 rem)</h5>
+            <h5 class="avatar-section-content">Small (4 rem)</h5>
+            <h5 class="avatar-section-content">Extra Small (3 rem)</h5>
+
+        </section>
+        <div class="iframe-container">
+            <code>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=50px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522avatar-sq-txt-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520txt-sq%2520txt-sq-m%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-m%2520badge-square%2520bg-online%2520bg-left%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520txt-sq%2520txt-sq-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-s%2520badge-square%2520bg-away%2520bg-right%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520txt-sq%2520txt-sq-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EVM%253C%252Fh3%253E%253Cspan%2520class%253D%2522badge-xs%2520badge-square%2520bg-available%2520bg-right%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </code>
+        </div>
+
+        <!-- ICONS BADGE -->
+
+
+        <h4 class="avatar-subheading">>Icons Badges</h4>
+        <h5 class="avatar-content">Icon Badge shows the number of notification/Items in cart, etc. As shown...
+        </h5>
+        <section class="badge-icon-container">
+            <div class="badge-container">
+                <i class="badge-icon far fa-heart"></i>
+                <span class="badge-icon-primary badge-round badge-icon-num">2</span>
+            </div>
+            <div class="badge-container">
+                <i class="badge-icon fas fa-share-alt"></i>
+                <span class="badge-icon-secondary badge-round badge-icon-num">2</span>
+            </div>
+            <div class="badge-container">
+                <i class="badge-icon fas fa-shopping-cart"></i>
+                <span class="badge-icon-secondary-outline badge-round badge-icon-num">9+</span>
+            </div>
+        </section>
+
+        <div class="iframe-container">
+            <code>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=50px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522badge-icon-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522badge-icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-primary%2520badge-round%2520badge-icon-num%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-secondary%2520badge-round%2520badge-icon-num%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522badge-icon%2520fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-secondary-outline%2520badge-round%2520badge-icon-num%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </code>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
