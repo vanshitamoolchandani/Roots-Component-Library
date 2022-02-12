@@ -1,0 +1,322 @@
+@import url('/component/NavBar-Vertical/styles.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+
+.avatar-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 5rem;
+    background-color: var(--white-color);
+    padding: 2rem;
+}
+
+.heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.avatar-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+.avatar-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+
+.avatar-section-content{
+    font-size: var(--section-content-size);
+    font-weight: var(--section-content-weight);
+    color: var(--secondary-color);
+}
+
+/* ROUND AVATAR */
+.avatar-rd-img-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.img-rd-xl{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.img-rd-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.img-rd-m{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.img-rd-s{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.img-rd-xs{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+/* ROUND AVATAR ENDS */
+.avatar-details{
+    width: 90%;
+    height: 5rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--primary-vlight-color);
+}
+
+/* SQUARED AVATAR START */
+.avatar-squared-img-container{
+    width: 90%;
+    height: 15rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+}
+
+
+.img-sq-xl{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.img-sq-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+.img-sq-m{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.img-sq-s{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.img-sq-xs{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+}
+
+
+
+/* SQUARED AVATAR END */ 
+
+
+.iframe-container{
+    padding-top: 3rem;
+}
+
+iframe{
+    width: 40rem;
+    height: 15rem;
+    margin-right:auto;
+    margin-left:auto;
+    transform: scale(1); 
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* ROUND TEXT AVATAR START */
+
+.avatar-rd-txt-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.txt-rd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-rd-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--secondary-light-color);
+
+} 
+
+.txt-rd-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%; 
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+}
+
+.txt-rd-m{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+.txt-rd-s{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+.txt-rd-xs{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 50%;
+}
+
+/* ROUND TEXT AVATAR END */
+
+
+/* SQUARED TEXT AVATAR START */
+
+.avatar-sq-txt-container{
+    width: 90%;
+    height: 12rem;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-vlight-color);
+    text-align: center;
+    
+}
+
+.txt-sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-sq-xl{
+    height: 10rem;
+    width: 10rem;    
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--secondary-light-color);
+
+} 
+
+.txt-sq-l{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+}
+
+.txt-sq-m{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+
+.txt-sq-s{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+
+.txt-sq-xs{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+}
+
+/* SQUARED TEXT AVATAR END */
