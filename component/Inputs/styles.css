@@ -1,0 +1,87 @@
+@import url('/styles/nav.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.container{
+    display: block;
+}
+
+.input-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 5rem;
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+}
+.heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.ip-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+
+.ip-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+
+.ip-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+    color: var(--primary-color);
+}
+
+.ip-textarea{
+    padding: 2rem;
+    margin: 1rem;
+    width: 80%;
+    height: 10rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: 400;
+}
+
+.in-container{
+    padding:1rem;
+    border-radius: 1px;
+    background-color: var(--primary-vlight-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+    width: 15rem;
+}
+
+.in-error{
+    border-color: red;
+    margin-bottom: 0px;
+}
+
+.in-label-error{
+    color: red;
+    font-size: small;
+    margin: 3px 0px;
+}
+
+/* BUTTONS */
+.btn-standard{
+    padding: 0.5rem 1.5rem;
+    font-weight: var(--content-weight);
+    font-size: var(--content-size);
+    border-radius: 0.5rem;
+    margin: 5px;
+}
