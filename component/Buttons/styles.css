@@ -103,11 +103,9 @@
 
 .btn-link{
     border: none;
-    background-color: var(--white-color);
+    background-color: transparent;
     text-decoration: underline;
-    font-weight: var(--content-weight);
-    font-size: var(--content-size);
-    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .btn-link-primary{
