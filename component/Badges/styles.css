@@ -5,10 +5,7 @@
 @import url('/component/Avatars/styles.css');
 
 
-.avatar-rd-img-container,
-.avatar-squared-img-container,
-.avatar-rd-txt-container,
-.avatar-sq-txt-container
+.avatar-container
 {
     width: 90%;
     height: 8rem;
@@ -63,35 +60,33 @@
 {
     position: absolute;
     bottom: 0;
-  border-color: var(--white-color);
+    border-color: var(--white-color);
+    border-style: solid;
+
 }
 
 .badge-xl{
     width: 2rem;
     height: 2rem;
     border-width: 8px;
-    border-style: solid;
 }
 
 .badge-l{
     width: 1.25rem;
     height: 1.25rem;
     border-width: 5px;
-    border-style: solid;
 }
 
 .badge-m{
     width: 1rem;
     height: 1rem;
     border-width: 4px;
-    border-style: solid;
 }
 
 .badge-s{
     width: 0.75rem;
     height: 0.75rem;
     border-width: 4px;
-    border-style: solid;
 }
 
 .badge-xs
@@ -99,25 +94,10 @@
     width: 0.5rem;
     height: 0.5rem;
     border-width: 4px;
-    border-style: solid;
 }
 
 
-.iframe-container{
-    padding-top: 3rem;
-}
 
-iframe{
-    width: 55rem;
-    height: 15rem;
-    margin-right:auto;
-    margin-left:auto;
-    transform: scale(1); 
-    overflow:hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 
 

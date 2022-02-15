@@ -49,10 +49,55 @@ body{
         grid-template-columns: 200px 1fr;
 }
 
+.component-body{
+    font-family: var(--font-family-content);
+    grid-area: main;
+    margin: 0rem 5rem;
+    background-color: var(--white-color);
+    padding: 2rem;
+}
+
+.component-heading{
+    margin: 1rem 0rem;
+    font-size: var(--heading-size);
+    text-align: left;
+    font-weight: var(--heading-weight);
+}
+
+.component-subheading{
+    margin: 2rem 1rem;
+    font-size: var(--sub-heading-size);
+    text-align: left;
+    font-weight: var(--sub-heading-weight);
+}
+
+
+.component-content{
+    padding-top: 1rem;
+    font-size: var(--content-size);
+    font-weight: var(--content-weight);
+}
+
 .container{
     border: 5px solid var(--dark-grey-color);
     padding: 1rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
+}
+
+.iframe-container{
+    padding-top: 3rem;
+}
+
+.iframe{
+    width: 50rem;
+    height: 15rem;
+    margin-right:auto;
+    margin-left:auto;
+    transform: scale(1); 
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
