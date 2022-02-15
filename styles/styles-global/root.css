@@ -20,7 +20,7 @@
     --black-color: #090C02;
     --black-matte-color: #28282B;
     --background-color: #f5f5f5 !important;
-    --dark-grey-color: #b8b8b8 !important;
+    --dark-gray-color: #b8b8b8 !important;
     --white-color: white;
     --delete-color: red;
     --font-family-content: 'Comfortaa';
@@ -79,7 +79,7 @@ body{
 }
 
 .container{
-    border: 5px solid var(--dark-grey-color);
+    border: 5px solid var(--dark-gray-color);
     padding: 1rem;
     border-radius: 1rem;
     display: flex;

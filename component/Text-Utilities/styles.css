@@ -1,0 +1,34 @@
+@import url('/component/NavBar-Vertical/styles.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.tu-container{
+    text-align: center;
+}
+.tu-container .component-subheading{
+    text-align: center;
+}
+
+
+.tu-gray{
+    color: var(--dark-gray-color);
+}
+
+.tu-danger{
+    color: var(--delete-color);
+}
+.container-align{
+    border: 5px solid var(--dark-gray-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.tu-left{
+    text-align: left;
+}
+.tu-right{
+    text-align: right;
+}
+.tu-center{
+    text-align: center;
+}
+
