@@ -93,8 +93,7 @@ body{
 .iframe{
     width: 50rem;
     height: 15rem;
-    margin-right:auto;
-    margin-left:auto;
+    margin: 0 auto;
     transform: scale(1); 
     overflow:hidden;
     display: flex;

@@ -2,18 +2,16 @@
 @import url('/styles/styles-global/root.css');
 @import url('/styles.css');
 
+
 .tu-container{
     text-align: center;
 }
 .tu-container .component-subheading{
     text-align: center;
 }
-
-
 .tu-gray{
     color: var(--dark-gray-color);
 }
-
 .tu-danger{
     color: var(--delete-color);
 }
@@ -30,5 +28,9 @@
 }
 .tu-center{
     text-align: center;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
 }
 
