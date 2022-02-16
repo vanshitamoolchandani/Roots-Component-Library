@@ -1,0 +1,63 @@
+@import url('/component/NavBar-Vertical/styles.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.rating{
+    position: relative;
+    display: flex;
+    direction: rtl;
+}
+.rating .star{
+    display: none;
+}
+.rating .star-none{
+    display: none;
+}
+.rating .star-none-label{
+    display: block;
+    cursor: pointer;
+    width: 3rem;
+    position: relative;
+}
+.rating .star-none-label::before{
+    content: '\f005';
+    display: none;
+    font-size: 2rem;
+    margin: 0;
+}
+.rating .star-label{
+    display: block;
+    cursor: pointer;
+    width: 2rem;
+    position: relative;
+    margin: 0.25rem;
+}
+.rating .star-label::before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: var(--dark-grey-color);
+}
+.rating .star-label::after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 2rem;
+    color: orange;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) rotateY(180deg);
+}
+.rating .star-label:hover:after,
+.rating .star-label:hover ~ label::after,
+.rating .star:checked ~ label::after
+{
+    opacity: 1;
+}

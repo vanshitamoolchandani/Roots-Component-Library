@@ -1,0 +1,33 @@
+@import url('/component/NavBar-Vertical/styles.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+
+.grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+.grid-box{
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid var(--dark-grey-color);
+}
+.grid-three{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+.grid-sidebar-main-sidebar{
+    height: 20rem;    
+    width: 20rem;
+    border: 2px solid var(--dark-grey-color);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.sidebar{
+    background-color: var(--secondary-color);
+}
+.main{
+    background-color: var(--primary-color);
+}
