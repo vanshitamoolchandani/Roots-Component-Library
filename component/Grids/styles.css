@@ -5,7 +5,7 @@
 .grid-two{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    gap: 8px;
 }
 .grid-box{
     height: 5rem;
@@ -15,7 +15,7 @@
 .grid-three{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
+    gap: 8px;
 }
 .grid-sidebar-main-sidebar{
     height: 20rem;    
