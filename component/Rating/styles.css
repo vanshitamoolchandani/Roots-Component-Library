@@ -41,7 +41,7 @@
     top: 0;
     left: 0;
     opacity: 1;
-    color: var(--dark-grey-color);
+    color: var(--dark-gray-color);
 }
 .rating .star-label::after{
     content: '\f005';

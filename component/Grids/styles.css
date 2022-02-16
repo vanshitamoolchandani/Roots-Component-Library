@@ -10,7 +10,7 @@
 .grid-box{
     height: 5rem;
     width: 5rem;
-    border: 2px solid var(--dark-grey-color);
+    border: 2px solid var(--dark-gray-color);
 }
 .grid-three{
     display: grid;
@@ -20,7 +20,7 @@
 .grid-sidebar-main-sidebar{
     height: 20rem;    
     width: 20rem;
-    border: 2px solid var(--dark-grey-color);
+    border: 2px solid var(--dark-gray-color);
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
