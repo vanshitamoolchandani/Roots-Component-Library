@@ -7,35 +7,10 @@
     --delete-light-color: #f8c1c1;
 }
 
-.btn-body{
-    font-family: var(--font-family-content);
-    grid-area: main;
-    margin: 0rem 5rem;
-    background-color: var(--white-color);
-    padding: 2rem 2rem;
-}
-.heading{
-    margin: 1rem 0rem;
-    font-size: var(--heading-size);
-    text-align: left;
-    font-weight: var(--heading-weight);
-}
 
-.btn-subheading{
-    margin: 2rem 1rem;
-    font-size: var(--sub-heading-size);
-    text-align: left;
-    font-weight: var(--sub-heading-weight);
-}
-
-.btn-content{
-    padding-top: 1rem;
-    font-size: var(--content-size);
-    font-weight: var(--content-weight);
-}
 /* STANDARD BUTTON */
 
-.btn-standard{
+.btn-rect{
     padding: 1rem 2rem;
     font-weight: var(--content-weight);
     font-size: var(--content-size);
@@ -68,14 +43,7 @@
 
 
 
-.btn-outline{
-    padding: 1rem 2rem;
-    font-weight: var(--content-weight);
-    font-size: var(--content-size);
-    border-radius: 0.5rem;
-    margin: 1rem;
 
-}
 
 .btn-out-primary{
     background-color: var(--primary-vlight-color);
@@ -104,8 +72,9 @@
 .btn-link{
     border: none;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
+    font-size: larger
 }
 
 .btn-link-primary{
@@ -190,24 +159,6 @@
     transform: scale(1.25);
  }
 
-
-/* IFRAME */
-
-.iframe-container{
-    padding-top: 3rem;
-}
-
-iframe{
-    width: 55rem;
-    height: 15rem;
-    margin-right:auto;
-    margin-left:auto;
-    transform: scale(1); 
-    overflow:hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 
 

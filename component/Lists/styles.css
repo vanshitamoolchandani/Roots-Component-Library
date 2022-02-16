@@ -1,0 +1,45 @@
+@import url('/component/NavBar-Vertical/styles.css');
+@import url('/styles/styles-global/root.css');
+@import url('/styles.css');
+@import url('/component/Text-Utilities/styles.css');
+
+
+.container{
+    justify-content: space-around;
+}
+
+.list-type-circle{
+    list-style-type:circle;
+}
+
+.list-type-square{
+    list-style-type: square;
+}
+
+.list-type-inline{
+    display: inline;
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.list-stacked-container{
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    height: 6rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.list-type-nobullet{
+    list-style: none;
+}
+.tu-gray{
+    font-size: small;
+    padding-top: 0.5rem;
+}

@@ -10,35 +10,13 @@
     --btn-font-size: 300;
 }
 
-.card-body {
-    font-family: var(--font-family-content);
-    grid-area: main;
-    margin: 0rem 5rem;
-    background-color: var(--white-color);
-    padding: 2rem 2rem;
 
-
-}
 
 .card-align {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-.heading {
-    margin: 1rem 0rem;
-    font-size: var(--heading-size);
-    text-align: left;
-    font-weight: var(--heading-weight);
-}
-
-.btn-subheading {
-    margin: 2rem 1rem;
-    font-size: var(--sub-heading-size);
-    text-align: left;
-    font-weight: var(--sub-heading-weight);
 }
 
 
@@ -109,16 +87,9 @@
     justify-content: space-around;
 }
 
-.btn-standard {
-    padding: 0.5rem 0.75rem;
-    height: 3rem;
-    margin: 0.5rem;
-    font-size: medium;
 
 
-}
-
-.btn-outline {
+.btn-rect {
     padding: 0.5rem 0.75rem;
     height: 3rem;
     margin: 0.5rem;
@@ -128,7 +99,7 @@
 }
 
 .btn-icon {
-    padding: 0rem 0rem;
+    padding: 0;
     margin: 0.5rem;
 }
 

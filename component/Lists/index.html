@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/component/Lists/styles.css" rel="stylesheet">
+    <title>Lists</title>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-container">
+        <div class="nav-child">
+            <a class="nav-content"><i class="nav-logo fas fa-spa"></i></a>
+            <h2 class="nav-content nav-logo-txt">Roots</h2>
+        </div>
+        <div class="nav-child">
+            <a href="/index.html" class="nav-link nav-content">Home</a>
+            <a class="nav-link nav-content">Installation</a>
+            <a href="/component/Avatars/index.html" class="nav-link nav-content">Documentation</a>
+        </div>
+    </nav>
+    <div class="nav-body scroll">
+        <div class="nav-scroll">
+            <h4 class="nav-heading">Get Started</h4>
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="nav-a">Introduction</a></li>
+                <li class="nav-li"><a class="nav-a">Colors</a></li>
+                <li class="nav-li"><a class="nav-a">Typography</a></li>
+                <li class="nav-li"><a class="nav-a">Theming</a></li>
+            </ul>
+            <h4 class="nav-heading">Components</h4>
+            <ul class="nav-ul">
+                <li class="nav-li"> <a href="/component/Avatars/index.html" class="nav-a ">Avatar</a></li>
+                <li class="nav-li"> <a href="/component/Alerts/index.html" class="nav-a ">Alerts</a></li>
+                <li class="nav-li"> <a href="/component/Badges/index.html" class="nav-a ">Badges</a></li>
+                <li class="nav-li"> <a href="/component/Buttons/index.html" class="nav-a ">Button</a></li>
+                <li class="nav-li"> <a href="/component/Cards/index.html" class="nav-a ">Card</a></li>
+                <li class="nav-li"> <a href="/component/Images/index.html" class="nav-a ">Image</a></li>
+                <li class="nav-li"> <a href="/component/Input/index.html" class="nav-a ">Input</a></li>
+                <li class="nav-li"> <a href="/component/Text-Utilities/index.html" class="nav-a ">Text-Utilities</a></li>
+                <li class="nav-li"> <a href="/component/Lists/index.html" class="nav-a ">Lists</a></li>
+                <li class="nav-li"> <a href="/component/Rating/index.html" class="nav-a ">Rating</a></li>
+                <li class="nav-li"> <a href="/component/Grids/index.html" class="nav-a ">Grids</a></li>
+                <li class="nav-li"> <a href="/component/Modal/index.html" class="nav-a ">Modal</a></li>
+                <li class="nav-li"> <a href="/component/Navigation/index.html" class="nav-a ">Navigation</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- LISTS BODY -->
+
+
+    <div class="component-body">
+        <h2 class="component-heading">Lists</h2>
+        <h5 class="component-content"></h5>
+
+            <!-- ORDERED LIST -->
+
+            <h4 class="component-subheading">> Ordered List </h4>
+            <h5 class="component-content"> </h5>
+            <div class="container">
+                <ol class="component-content">
+                    <li class="tu-left">Item 1</li>
+                    <li class="tu-left">Item 2</li>
+                    <li class="tu-left">Item 3</li>
+                </ol>
+                <ol type = "i" class="component-content">
+                    <li class="tu-left">Item 1</li>
+                    <li class="tu-left">Item 2</li>
+                    <li class="tu-left">Item 3</li>
+                </ol>
+                <ol type = "I" class="component-content">
+                    <li class="tu-left">Item 1</li>
+                    <li class="tu-left">Item 2</li>
+                    <li class="tu-left">Item 3</li>
+                </ol>
+            </div>
+
+            <!-- UNORDERED LIST -->
+            <h4 class="component-subheading">> Unorderd list </h4>
+            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
+            <div class="container">
+                <ul class="component-content">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-type-circle component-content">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <ul class="list-type-square component-content">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+
+            <!-- INLINE LIST -->
+
+            <h4 class="component-subheading">> Inline List </h4>
+            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
+            <div class="container">
+                <ul class="list-type-inline component-content">
+                    <li class="list-type-inline">Item 1</li>
+                    <li class="list-type-inline">Item 2</li>
+                    <li class="list-type-inline">Item 3</li>
+                </ul>
+            </div>
+
+            <!-- STACKED LIST -->
+
+            <h4 class="component-subheading">> Stacked List </h4>
+            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
+            <div class="container">
+                <ul class="list-type-inline component-content">
+                    <li class="list-stacked-container">
+                        <div>
+                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                        <div>
+                            <ul>
+                                <li class="list-type-nobullet">Your order is placed</li>
+                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-stacked-container">
+                        <div>
+                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                        <div>
+                            <ul>
+                                <li class="list-type-nobullet">Your order is placed</li>
+                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-stacked-container">
+                        <div>
+                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                        <div>
+                            <ul>
+                                <li class="list-type-nobullet">Your order is placed</li>
+                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
