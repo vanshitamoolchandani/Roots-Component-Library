@@ -19,19 +19,19 @@
 
 
 :root {
-    --primary-color: #211c76 !important;
-    --primary-light-color: #6662a8 !important;
-    --primary-vlight-color: #DCEDFF !important;
-    --secondary-color:#fE7A15 !important;
-    --secondary-light-color: #ffdec5 !important;
+    --primary-color: #211c76 ;
+    --primary-light-color: #6662a8 ;
+    --primary-vlight-color: #DCEDFF ;
+    --secondary-color:#fE7A15 ;
+    --secondary-light-color: #ffdec5 ;
     --black-color: #090C02;
     --black-matte-color: #28282B;
-    --background-color: #f5f5f5 !important;
-    --dark-gray-color: #b8b8b8 !important;
+    --background-color: #f5f5f5 ;
+    --dark-gray-color: #b8b8b8 ;
     --white-color: white;
     --delete-color: red;
     --font-family-content: 'Comfortaa';
-    --font-family-logo: 'Yellowtail', cursive !important;
+    --font-family-logo: 'Yellowtail', cursive ;
     --heading-weight: 500;
     --heading-size: 2.5rem;
     --sub-heading-weight: 300;
@@ -39,7 +39,7 @@
     --content-weight: 100;
     --content-size: 1.25rem;
     --section-content-size:1rem;
-    --section-content-weight: 500 !important;
+    --section-content-weight: 500 ;
 }
 
 
