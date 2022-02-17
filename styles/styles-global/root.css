@@ -8,6 +8,13 @@
 @import url('/component/Cards/styles.css');
 @import url('/component/Images/styles.css');
 @import url('/component/Input/styles.css');
+@import url('/component/Text-Utilities/styles.css');
+@import url('/component/Grids/styles.css');
+@import url('/component/Lists/styles.css');
+@import url('/component/Rating/styles.css');
+
+
+
 @import url('/component/NavBar-Vertical/styles.css');
 
 
@@ -87,7 +94,7 @@ body{
 }
 
 .iframe-container{
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 .iframe{
