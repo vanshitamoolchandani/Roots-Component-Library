@@ -44,6 +44,8 @@
 
 .card-txt-red {
     color: red;
+    font-size: 12px; 
+    text-decoration:line-through"
 }
 
 .card-txt-secondary {
@@ -72,10 +74,12 @@
 }
 
 
+
+
 /* COMMON BUTTON  */
 
 .btn-container {
-    display: flex;
+    display: flex ;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -95,8 +99,8 @@
     margin: 0.5rem;
     font-size: medium;
     font-weight: 700;
-
 }
+
 
 .btn-icon {
     padding: 0;
@@ -121,9 +125,6 @@
 .card-basic {
     height: 26rem;
     width: 22rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .basic-img,
