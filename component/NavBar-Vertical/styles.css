@@ -17,8 +17,6 @@
     overflow-y: auto;
     text-align: center;
 }
-
-
 .nav-heading {
     margin: 0%;
     padding: 0.5rem;
@@ -34,12 +32,10 @@
     width: 200px;
     display: block;
 }
-
 .nav-li {
     padding: 4px 0rem;
     color: var(--black-color);
 }
-
 .nav-a {
     cursor: pointer;
     text-decoration: none;
@@ -47,7 +43,6 @@
     display: block;
     padding: 3px;
 }
-
 .nav-a:active {
     font-weight: 600;
     background-color: var(--background-color);

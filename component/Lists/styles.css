@@ -39,7 +39,7 @@
 .list-type-nobullet{
     list-style: none;
 }
-.tu-gray{
+.list-stacked-container .tu-gray{
     font-size: small;
     padding-top: 0.5rem;
 }

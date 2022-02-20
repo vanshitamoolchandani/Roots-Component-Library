@@ -19,11 +19,11 @@
         </div>
         <div class="nav-child">
             <a href="/index.html" class="nav-link nav-content">Home</a>
-            <a class="nav-link nav-content">Installation</a>
+            <a href="/install/index.html" class="nav-link nav-content">Installation</a>
             <a href="/component/Avatars/index.html" class="nav-link nav-content">Documentation</a>
         </div>
     </nav>
-    <div class="nav-body scroll">
+    <aside class="nav-body scroll">
         <div class="nav-scroll">
             <h4 class="nav-heading">Get Started</h4>
             <ul class="nav-ul">
@@ -41,7 +41,8 @@
                 <li class="nav-li"> <a href="/component/Cards/index.html" class="nav-a ">Card</a></li>
                 <li class="nav-li"> <a href="/component/Images/index.html" class="nav-a ">Image</a></li>
                 <li class="nav-li"> <a href="/component/Input/index.html" class="nav-a ">Input</a></li>
-                <li class="nav-li"> <a href="/component/Text-Utilities/index.html" class="nav-a ">Text-Utilities</a></li>
+                <li class="nav-li"> <a href="/component/Text-Utilities/index.html" class="nav-a ">Text-Utilities</a>
+                </li>
                 <li class="nav-li"> <a href="/component/Lists/index.html" class="nav-a ">Lists</a></li>
                 <li class="nav-li"> <a href="/component/Rating/index.html" class="nav-a ">Rating</a></li>
                 <li class="nav-li"> <a href="/component/Grids/index.html" class="nav-a ">Grids</a></li>
@@ -49,50 +50,64 @@
                 <li class="nav-li"> <a href="/component/Navigation/index.html" class="nav-a ">Navigation</a></li>
             </ul>
         </div>
-    </div>
+    </aside>
 
     <!-- INPUT BODY -->
 
 
     <div class="component-body">
         <h2 class="component-heading">Input</h2>
-        <h5 class="component-content"></h5>
+        <h5 class="component-content">Inputs are used to create interactive controls for web-based forms in order to
+            accept data from the user. A wide variety of types of input data and control widgets are available</h5>
 
 
-            <h4 class="component-subheading">> Input Box </h4>
-            <h5 class="component-content"> Enter email, username, password</h5>
-            <div class="container">
-                <div class="in-container">
-                    <label class="in-label">Email ID</label>
-                    <input type="email" placeholder="enter email id" class="input">
-                    <label class="in-label">User Name</label>
-                    <input type="text" placeholder="enter user name" class="input">
-                    <label class="in-label">Password</label>
-                    <input type="password" placeholder="enter password" class="input">
-                    <label class="in-label">Password</label>
-                    <input type="password" placeholder="enter password again" class="input in-error">
-                    <label class="in-label-error">Try Again</label>
+        <h4 class="component-subheading">> Input Box </h4>
+        <h5 class="component-content"> Enter email, username, password</h5>
+        <div class="container">
+            <div class="in-container">
+                <label class="in-label">Email ID</label>
+                <input type="email" placeholder="enter email id" class="input">
+                <label class="in-label">User Name</label>
+                <input type="text" placeholder="enter user name" class="input">
+                <label class="in-label">Password</label>
+                <input type="password" placeholder="enter password" class="input">
+                <label class="in-label">Password</label>
+                <input type="password" placeholder="enter password again" class="input in-error">
+                <label class="in-label-error">Try Again</label>
+            </div>
+        </div>
+
+        <div class="iframe-container">
+            <code>
+
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522in-container%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522enter%2520email%2520id%2522%2520class%253D%2522input%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522in-label%2522%253EUser%2520Name%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520user%2520name%2522%2520class%253D%2522input%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522in-label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522enter%2520password%2522%2520class%253D%2522input%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522in-label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522enter%2520password%2520again%2522%2520class%253D%2522input%2520in-error%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522in-label-error%2522%253ETry%2520Again%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </code>
+        </div>
+
+        <!-- TEXTBOX -->
+        <h4 class="component-subheading">> Text Box </h4>
+        <div class="container">
+            <div class="in-container">
+                <textarea class="ip-textarea" placeholder="Write your Review here..."></textarea>
+                <div class="ip-textarea-footer">
                 </div>
             </div>
+        </div>
+        <div class="iframe-container">
+            <code>
 
-            <!-- TEXTBOX -->
-            <h4 class="component-subheading">> Text Box </h4>
-            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
-            <div class="container">
-                <div class="in-container">
-                    <textarea class="ip-textarea" placeholder="Write your Review here..."></textarea>
-                    <div class="ip-textarea-footer">
-                    </div>
-                </div>
-                
-            </div>
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522in-container%2522%253E%250A%2520%2520%2520%253Ctextarea%2520class%253D%2522ip-textarea%2522%2520placeholder%253D%2522Write%2520your%2520Review%2520here...%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522ip-textarea-footer%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </code>
+        </div>
     </div>
-
-
-
-
-
-
 </body>
 
 </html>
