@@ -31,9 +31,7 @@
     font-size: var(--content-size);
     font-weight: var(--content-weight);
 }
-.card-content-txt-color {
-    color: gray;
-}
+
 .card-txt-red {
     text-decoration:line-through;
     color: red;
