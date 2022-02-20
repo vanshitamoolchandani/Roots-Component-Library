@@ -16,6 +16,8 @@
     font-size: var(--content-size);
     border-radius: 0.5rem;
     margin: 1rem;
+    cursor: pointer;
+
 }
 
 .btn-std-primary{
@@ -33,7 +35,7 @@
     color: var(--white-color);
 }
 
-.btn-standard:hover {
+.btn-rect:hover {
     box-shadow: 0 6px 14px 0 #666;
     transform: scale(1.05);
  }
@@ -61,10 +63,6 @@
     background-color: var(--delete-light-color);
 }
 
-.btn-outline:hover {
-    box-shadow: 0 6px 14px 0 #666;
-    transform: scale(1.05);
- }
 
 /* LINK BUTTON */
 
