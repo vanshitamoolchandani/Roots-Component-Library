@@ -4,8 +4,7 @@
 
 .avatar-section-content{
     font-size: var(--section-content-size);
-    font-weight: var(--section-content-weight);
-    color: var(--secondary-color);
+    font-weight: 800;
 }
 
 .avatar-container{
