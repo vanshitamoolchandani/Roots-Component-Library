@@ -53,7 +53,7 @@ Simply use the following links in your projects.
 
 * [Badge](https://root-ui.netlify.app/component/badges/)
 
-##### Badge are indication that users can set to show if they are online, available or away. The badges are of four sizes extra-large (10 rem), large (8 rem), medium (6 rem) and small (4 rem)
+##### Badge are indication that users can set to show if they are online, available or away. The badges are of three sizes medium (6 rem), small (4 rem) and extra small(3rem).
 
 <br>
 
