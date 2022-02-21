@@ -12,9 +12,6 @@
 @import url('/component/Grids/styles.css');
 @import url('/component/Lists/styles.css');
 @import url('/component/Rating/styles.css');
-
-
-
 @import url('/component/NavBar-Vertical/styles.css');
 
 
@@ -99,7 +96,7 @@ body{
 
 .iframe{
     width: 50rem;
-    height: 15rem;
+    height: auto;
     margin: 0 auto;
     transform: scale(1); 
     overflow:hidden;

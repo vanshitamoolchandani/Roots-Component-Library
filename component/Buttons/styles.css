@@ -17,7 +17,9 @@
     border-radius: 0.5rem;
     margin: 1rem;
     cursor: pointer;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-std-primary{

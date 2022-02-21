@@ -9,24 +9,17 @@
     --font-weight-card-content: 600;
     --btn-font-size: 300;
 }
-
-
-
 .card-align {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
-
 .card-heading {
     margin: 0;
     padding-top: 8px;
     padding-bottom: 8px;
-
 }
-
 .card-subheading {
     font-weight: 400;
     margin: 0;
@@ -38,21 +31,15 @@
     font-size: var(--content-size);
     font-weight: var(--content-weight);
 }
-.card-content-txt-color {
-    color: gray;
-}
 
 .card-txt-red {
     text-decoration:line-through;
     color: red;
-    font-size: 12px; 
-    
+    font-size: 12px;    
 }
-
 .card-txt-secondary {
     color: var(--secondary-color);
 }
-
 .card-basic,
 .card-header,
 .card-horiz,
@@ -65,17 +52,12 @@
     position: relative;
     z-index: 1;
 }
-
 .card-txt-container:hover {
     background-color: var(--grey-color);
 }
-
 .txt-margin {
     margin: 10px;
 }
-
-
-
 
 /* COMMON BUTTON  */
 
@@ -85,15 +67,11 @@
     justify-content: space-between;
     width: 100%;
 }
-
 .btn-standard-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-
-
 .btn-rect {
     padding: 0.5rem 0.75rem;
     height: 3rem;
@@ -101,13 +79,10 @@
     font-size: medium;
     font-weight: 700;
 }
-
-
 .btn-icon {
     padding: 0;
     margin: 0.5rem;
 }
-
 .icon-padding {
     display: flex;
     justify-content: space-around;
@@ -115,7 +90,6 @@
     gap: 10px;
     padding-right: 5px;
 }
-
 .btn-icon-child {
     font-size: 1.5rem;
     padding: 0;
@@ -134,30 +108,25 @@
     height: 230px;
     border-radius: 10px;
 }
-
-
 /* BASIC END */
+
 
 /* HEADER WITH BADGE */
 .card-header-badge {
     height: 28rem;
     width: 22rem;
 }
-
 /* HEADER WITH BADGE END */
 
 
 /* HEADER */
-
 .card-header {
     height: 26rem;
     width: 22rem;
 }
-
 .header-img {
     border-radius: 0%;
 }
-
 /* HEADER END */
 
 
@@ -167,19 +136,19 @@
     height: 11rem;
     width: 25rem;
 }
-
 .horiz-align {
     display: flex;
     flex-direction: row;
 }
-
 .horiz-img {
     width: 110px;
     height: 110px;
     border-radius: 3px;
 }
-
 /* HORIZONTAL IMAGE END */
+
+
+/* CARD TEXT-OVERLAY */
 .card-txt-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
@@ -188,7 +157,6 @@
     height: 100%;
     border-radius: 10px;
 }
-
  .centered {
     position: absolute;
     top: 50%;
@@ -201,7 +169,6 @@
 
 
 /* ribbon */
-
 .ribbon {
     width: 9rem;
     height: 9rem;
@@ -210,7 +177,6 @@
     top: -10px;
     right: -10px;
 }
-
 .ribbon__content {
     left: -25px;
     top: 30px;
@@ -229,10 +195,7 @@
     text-align: center;
     border: 2px dotted #fff;
     outline: 5px solid #f5cd79;
-
-
 }
-
 .ribbon::before {
     top: 0;
     left: 0;
@@ -244,9 +207,7 @@
     display: block;
     border: 5px solid #f19066;
     box-sizing: content-box;
-
 }
-
 .ribbon::after {
     bottom: 0;
     right: 0;
@@ -257,10 +218,7 @@
     content: '';
     display: block;
     border: 5px solid #f19066;
-
 }
-
-
 /* Sale badge */
 .badge-upper {
     background-color: var(--black-matte-color);

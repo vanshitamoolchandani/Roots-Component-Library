@@ -19,11 +19,11 @@
         </div>
         <div class="nav-child">
             <a href="/index.html" class="nav-link nav-content">Home</a>
-            <a class="nav-link nav-content">Installation</a>
+            <a href="/install/index.html" class="nav-link nav-content">Installation</a>
             <a href="/component/Avatars/index.html" class="nav-link nav-content">Documentation</a>
         </div>
     </nav>
-    <div class="nav-body scroll">
+    <aside class="nav-body scroll">
         <div class="nav-scroll">
             <h4 class="nav-heading">Get Started</h4>
             <ul class="nav-ul">
@@ -41,7 +41,8 @@
                 <li class="nav-li"> <a href="/component/Cards/index.html" class="nav-a ">Card</a></li>
                 <li class="nav-li"> <a href="/component/Images/index.html" class="nav-a ">Image</a></li>
                 <li class="nav-li"> <a href="/component/Input/index.html" class="nav-a ">Input</a></li>
-                <li class="nav-li"> <a href="/component/Text-Utilities/index.html" class="nav-a ">Text-Utilities</a></li>
+                <li class="nav-li"> <a href="/component/Text-Utilities/index.html" class="nav-a ">Text-Utilities</a>
+                </li>
                 <li class="nav-li"> <a href="/component/Lists/index.html" class="nav-a ">Lists</a></li>
                 <li class="nav-li"> <a href="/component/Rating/index.html" class="nav-a ">Rating</a></li>
                 <li class="nav-li"> <a href="/component/Grids/index.html" class="nav-a ">Grids</a></li>
@@ -49,108 +50,150 @@
                 <li class="nav-li"> <a href="/component/Navigation/index.html" class="nav-a ">Navigation</a></li>
             </ul>
         </div>
-    </div>
+    </aside>
 
     <!-- LISTS BODY -->
 
 
     <div class="component-body">
         <h2 class="component-heading">Lists</h2>
-        <h5 class="component-content"></h5>
+        <h5 class="component-content">Lists are used to specify lists of information. All lists may contain one or more
+            list elements.</h5>
 
-            <!-- ORDERED LIST -->
+        <!-- ORDERED LIST -->
 
-            <h4 class="component-subheading">> Ordered List </h4>
-            <h5 class="component-content"> </h5>
-            <div class="container">
-                <ol class="component-content">
-                    <li class="tu-left">Item 1</li>
-                    <li class="tu-left">Item 2</li>
-                    <li class="tu-left">Item 3</li>
-                </ol>
-                <ol type = "i" class="component-content">
-                    <li class="tu-left">Item 1</li>
-                    <li class="tu-left">Item 2</li>
-                    <li class="tu-left">Item 3</li>
-                </ol>
-                <ol type = "I" class="component-content">
-                    <li class="tu-left">Item 1</li>
-                    <li class="tu-left">Item 2</li>
-                    <li class="tu-left">Item 3</li>
-                </ol>
-            </div>
+        <h4 class="component-subheading">> Ordered List </h4>
+        <div class="container">
+            <ol class="component-content">
+                <li class="tu-left">Item 1</li>
+                <li class="tu-left">Item 2</li>
+                <li class="tu-left">Item 3</li>
+            </ol>
+            <ol type="i" class="component-content">
+                <li class="tu-left">Item 1</li>
+                <li class="tu-left">Item 2</li>
+                <li class="tu-left">Item 3</li>
+            </ol>
+            <ol type="I" class="component-content">
+                <li class="tu-left">Item 1</li>
+                <li class="tu-left">Item 2</li>
+                <li class="tu-left">Item 3</li>
+            </ol>
+        </div>
 
-            <!-- UNORDERED LIST -->
-            <h4 class="component-subheading">> Unorderd list </h4>
-            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
-            <div class="container">
-                <ul class="component-content">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-                <ul class="list-type-circle component-content">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-                <ul class="list-type-square component-content">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-            </div>
+        <div class="iframe-container">
+            <code>
 
-            <!-- INLINE LIST -->
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522component-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%253Col%2520type%253D%2522i%2522%2520class%253D%2522component-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%253Col%2520type%253D%2522I%2522%2520class%253D%2522component-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522tu-left%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
 
-            <h4 class="component-subheading">> Inline List </h4>
-            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
-            <div class="container">
-                <ul class="list-type-inline component-content">
-                    <li class="list-type-inline">Item 1</li>
-                    <li class="list-type-inline">Item 2</li>
-                    <li class="list-type-inline">Item 3</li>
-                </ul>
-            </div>
+            </code>
+        </div>
 
-            <!-- STACKED LIST -->
+        <!-- UNORDERED LIST -->
+        <h4 class="component-subheading">> Unorderd list </h4>
+        <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
+        <div class="container">
+            <ul class="component-content">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ul class="list-type-circle component-content">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ul class="list-type-square component-content">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
 
-            <h4 class="component-subheading">> Stacked List </h4>
-            <h5 class="component-content">Classic Avatars shows your profile picture in round shape. As shown...</h5>
-            <div class="container">
-                <ul class="list-type-inline component-content">
-                    <li class="list-stacked-container">
-                        <div>
-                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
-                        <div>
-                            <ul>
-                                <li class="list-type-nobullet">Your order is placed</li>
-                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="list-stacked-container">
-                        <div>
-                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
-                        <div>
-                            <ul>
-                                <li class="list-type-nobullet">Your order is placed</li>
-                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="list-stacked-container">
-                        <div>
-                            <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
-                        <div>
-                            <ul>
-                                <li class="list-type-nobullet">Your order is placed</li>
-                                <li class="list-type-nobullet tu-gray">2 hours ago</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+        <div class="iframe-container">
+            <code>
+
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522component-content%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-type-circle%2520component-content%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-type-square%2520component-content%2522%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </code>
+        </div>
+
+        <!-- INLINE LIST -->
+
+        <h4 class="component-subheading">> Inline List </h4>
+        <div class="container">
+            <ul class="list-type-inline component-content">
+                <li class="list-type-inline">Item 1</li>
+                <li class="list-type-inline">Item 2</li>
+                <li class="list-type-inline">Item 3</li>
+            </ul>
+        </div>
+
+        <div class="iframe-container">
+            <code>
+
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list-type-inline%2520component-content%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-inline%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-inline%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-inline%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </code>
+        </div>
+
+        <!-- STACKED LIST -->
+
+        <h4 class="component-subheading">> Stacked List </h4>
+        <div class="container">
+            <ul class="list-type-inline component-content">
+                <li class="list-stacked-container">
+                    <div>
+                        <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                    <div>
+                        <ul>
+                            <li class="list-type-nobullet">Your order is placed</li>
+                            <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-stacked-container">
+                    <div>
+                        <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                    <div>
+                        <ul>
+                            <li class="list-type-nobullet">Your order is placed</li>
+                            <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-stacked-container">
+                    <div>
+                        <img class="avatar-rd avatar-xxs" src="/images/avatar-img.png"></div>
+                    <div>
+                        <ul>
+                            <li class="list-type-nobullet">Your order is placed</li>
+                            <li class="list-type-nobullet tu-gray">2 hours ago</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="iframe-container">
+            <code>
+
+                <iframe class="iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C222%2C197%2C1%29&t=nord&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-type-inline%2520component-content%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-stacked-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-rd%2520avatar-xxs%2522%2520src%253D%2522%252Fimages%252Favatar-img.png%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-nobullet%2522%253EYour%2520order%2520is%2520placed%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-nobullet%2520tu-gray%2522%253E2%2520hours%2520ago%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-stacked-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-rd%2520avatar-xxs%2522%2520src%253D%2522%252Fimages%252Favatar-img.png%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-nobullet%2520tu-gray%2522%253E2%2520hours%2520ago%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-stacked-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-rd%2520avatar-xxs%2522%2520src%253D%2522%252Fimages%252Favatar-img.png%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-nobullet%2522%253EYour%2520order%2520is%2520placed%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-type-nobullet%2520tu-gray%2522%253E2%2520hours%2520ago%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </code>
+        </div>
 
     </div>
 
